@@ -34,17 +34,16 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"username\" : \"user\",\n    \"email\": \"user@mail.com\",\n    \"password\": \"pass1234\"\n}"
+							"raw": "{\n    \"username\" : \"abcUSER\",\n    \"email\": \"abc@mail.com\",\n    \"password\": \"pass1234\"\n}"
 						},
 						"url": {
-							"raw": "127.0.0.1:3000/api/v1/users/register",
+							"raw": "https://authapp-1uv0.onrender.com/api/v1/users/register",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"authapp-1uv0",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -91,7 +90,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"email\": \"user@mail.com\",\n    \"password\": \"pass1234\"\n}",
+							"raw": "{\n    \"email\": \"abc@mail.com\",\n    \"password\": \"pass1234\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -99,14 +98,13 @@
 							}
 						},
 						"url": {
-							"raw": "127.0.0.1:3000/api/v1/users/login",
+							"raw": "https://authapp-1uv0.onrender.com/api/v1/users/login",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"authapp-1uv0",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
@@ -129,14 +127,13 @@
 							}
 						],
 						"url": {
-							"raw": "127.0.0.1:3000/api/v1/users/profile",
+							"raw": "https://authapp-1uv0.onrender.com/api/v1/users/profile",
+							"protocol": "https",
 							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
+								"authapp-1uv0",
+								"onrender",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"v1",
